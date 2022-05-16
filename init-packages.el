@@ -41,4 +41,3 @@
 (package-install 'rainbow-delimiters)
 (use-package rainbow-delimiters)
 (rainbow-delimiters-mode)
-
