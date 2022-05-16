@@ -18,14 +18,14 @@
 (setq emacs-startup-hook
 	  (progn
 		(load (expand-file-name "init-packages.el" user-emacs-directory))
-		h(load (expand-file-name "base-config.el" user-emacs-directory))))
+		(load (expand-file-name "base-config.el" user-emacs-directory))))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages
+ '(package-selected-package
    '(which-key use-package rainbow-delimiters projectile helm f dumb-jump doom-themes company ace-window)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

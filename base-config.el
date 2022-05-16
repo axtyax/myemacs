@@ -13,6 +13,3 @@
 
 (setq tab-width 4)
 (setq frame-resize-pixelwise t)
-
-;; Font
-(menu-set-font 
